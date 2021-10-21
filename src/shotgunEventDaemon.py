@@ -1210,6 +1210,7 @@ class CustomSMTPHandler(logging.handlers.SMTPHandler):
 
         Format the record and send it to the specified addressees.
         """
+        return
 
         # Mostly copied from Python 2.7 implementation.
         try:
